@@ -1,0 +1,25 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Gulzar&family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+/* top players style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+
+}
